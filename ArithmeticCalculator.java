@@ -27,7 +27,7 @@ class Calculator{
 		b=sc.nextInt();
 		System.out.println("the answer is= "+(a*b));
 	}
-	public void dev() {
+	public void div() {
 		int a,b;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter the first number");
@@ -56,7 +56,7 @@ public class ArithmeticCalculator {
 			c.mul();
 			break;
 		case 4:
-			c.dev();
+			c.div();
 			break;
 		}
 	}
