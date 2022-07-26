@@ -28,7 +28,7 @@ class Calculator{
 		System.out.println("the answer is= "+(a*b));
 	}
 	public void div() {
-		int a,b;
+		float a,b;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter the first number");
 		a=sc.nextInt();
